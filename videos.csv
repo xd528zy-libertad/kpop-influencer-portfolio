@@ -1,21 +1,21 @@
 ﻿record_id,status,platform,video_url,creator_handle,creator_url,creator_type,followers,content_format,published_date,captured_at,views,likes,comments,shares,saves,metric_precision,raw_metrics,missing_metrics_reason,audio_match,language,disclosure,hook,cta,search_query,search_rank,evidence_ref,notes
-V01,pending,,,,,,,,,,,,,,,,,,,,,,,,,,
-V02,pending,,,,,,,,,,,,,,,,,,,,,,,,,,
-V03,pending,,,,,,,,,,,,,,,,,,,,,,,,,,
-V04,pending,,,,,,,,,,,,,,,,,,,,,,,,,,
-V05,pending,,,,,,,,,,,,,,,,,,,,,,,,,,
-V06,pending,,,,,,,,,,,,,,,,,,,,,,,,,,
-V07,pending,,,,,,,,,,,,,,,,,,,,,,,,,,
-V08,pending,,,,,,,,,,,,,,,,,,,,,,,,,,
-V09,pending,,,,,,,,,,,,,,,,,,,,,,,,,,
-V10,pending,,,,,,,,,,,,,,,,,,,,,,,,,,
-V11,pending,,,,,,,,,,,,,,,,,,,,,,,,,,
-V12,pending,,,,,,,,,,,,,,,,,,,,,,,,,,
-V13,pending,,,,,,,,,,,,,,,,,,,,,,,,,,
-V14,pending,,,,,,,,,,,,,,,,,,,,,,,,,,
-V15,pending,,,,,,,,,,,,,,,,,,,,,,,,,,
-V16,pending,,,,,,,,,,,,,,,,,,,,,,,,,,
-V17,pending,,,,,,,,,,,,,,,,,,,,,,,,,,
-V18,pending,,,,,,,,,,,,,,,,,,,,,,,,,,
-V19,pending,,,,,,,,,,,,,,,,,,,,,,,,,,
-V20,pending,,,,,,,,,,,,,,,,,,,,,,,,,,
+V01,pending,TikTok,https://vt.tiktok.com/ZSpMJXNFn/,,,,,dance,2024-11-24,,,2032000,7430,48000,136000,mixed,likes=203.2万;comments=7430;saves=13.6万;shares=4.8万,views:not_visible;followers:not_visible,uncertain,,,,,,,c0da5b8647c0592603896484cf9d90fb.jpg,截图转录；显示名=James & Jasmin；用户确认链接按序对应；非完整网页核验。见 tiktok_observations.csv。
+V02,pending,TikTok,https://vt.tiktok.com/ZSpMJHPjA/,,,,,dance,2024-11-27,,,774000,978,18000,40000,mixed,likes=77.4万;comments=978;saves=4万;shares=1.8万,views:not_visible;followers:not_visible,uncertain,,,,,,,6a680c67219bfaa32f323eaa87ad6419.jpg,截图转录；显示名=bách；用户确认链接按序对应；非完整网页核验。见 tiktok_observations.csv。
+V03,pending,TikTok,https://vt.tiktok.com/ZSpMJTmMP/,,,,,dance,2024-10-27,,,101000,785,10000,19000,mixed,likes=10.1万;comments=785;saves=1.9万;shares=1万,views:not_visible;followers:not_visible,uncertain,,,,,,,46df257ff01315e4764f269a555665d5.jpg,截图转录；显示名=Señorita Cai；用户确认链接按序对应；非完整网页核验。见 tiktok_observations.csv。
+V04,pending,TikTok,https://vt.tiktok.com/ZSpMJ7oDk/,,,,,dance,2024-12-17,,,1756000,15000,38000,117000,mixed,likes=175.6万;comments=1.5万;saves=11.7万;shares=3.8万,views:not_visible;followers:not_visible,uncertain,,,,,,,2ff58f547781f2363100a6bd4d02044a.jpg,截图转录；显示名=johnnymatos；用户确认链接按序对应；非完整网页核验。见 tiktok_observations.csv。
+V05,pending,TikTok,https://vt.tiktok.com/ZSpMJ3hHx/,,,,,dance,2024-11-01,,,1647000,14000,41000,174000,mixed,likes=164.7万;comments=1.4万;saves=17.4万;shares=4.1万,views:not_visible;followers:not_visible,uncertain,,,,,,,3824ba7903a33662f8ddaac073d61a91.jpg,截图转录；显示名=남다른；用户确认链接按序对应；非完整网页核验。见 tiktok_observations.csv。
+V06,pending,TikTok,https://vt.tiktok.com/ZSpMJ3XrM/,,,,,dance,2024-11-08,,,1345000,3746,41000,131000,mixed,likes=134.5万;comments=3746;saves=13.1万;shares=4.1万,views:not_visible;followers:not_visible,uncertain,,,,,,,67c76c1f33b01a87faee986c12213442.jpg,截图转录；显示名=Valeria Vz；用户确认链接按序对应；非完整网页核验。见 tiktok_observations.csv。
+V07,pending,TikTok,https://vt.tiktok.com/ZSpMJwoLB/,,,,,dance,2024-12-28,,,1346000,9136,37000,70000,mixed,likes=134.6万;comments=9136;saves=7万;shares=3.7万,views:not_visible;followers:not_visible,uncertain,,,,,,,a7f57d9c3111275929002e18f08be5ba.jpg,截图转录；显示名=eat愛媛朝日テレビTik…；用户确认链接按序对应；非完整网页核验。见 tiktok_observations.csv。
+V08,pending,TikTok,https://vt.tiktok.com/ZSpMe6W9X/,,,,,dance,2024-11-28,,,203000,3805,17000,27000,mixed,likes=20.3万;comments=3805;saves=2.7万;shares=1.7万,views:not_visible;followers:not_visible,uncertain,,,,,,,4197f3a9aacb075050ad2d4abe807033.jpg,截图转录；显示名=SORÉ；用户确认链接按序对应；非完整网页核验。见 tiktok_observations.csv。
+V09,pending,TikTok,https://vt.tiktok.com/ZSpMee5bp/,,,,,dance,2024-10-23,,,231000,492,24000,22000,mixed,likes=23.1万;comments=492;saves=2.2万;shares=2.4万,views:not_visible;followers:not_visible,uncertain,,,,,,,6fa218395fb52cfa8a83e4ba4acb21cd.jpg,截图转录；显示名=h.aneen_al；用户确认链接按序对应；非完整网页核验。见 tiktok_observations.csv。
+V10,pending,TikTok,https://vt.tiktok.com/ZSpMJTstJ/,,,,,dance,2024-10-22,,,661000,6707,11000,40000,mixed,likes=66.1万;comments=6707;saves=4万;shares=1.1万,views:not_visible;followers:not_visible,uncertain,,,,,,,6cec24fc15a327a83d898932b8bcdee0.jpg,截图转录；显示名=becky armstrong；用户确认链接按序对应；非完整网页核验。见 tiktok_observations.csv。
+V11,pending,TikTok,https://vt.tiktok.com/ZSpMJTYCC/,,,,,dance,2024-11-06,,,119000,526,2056,8627,mixed,likes=11.9万;comments=526;saves=8627;shares=2056,views:not_visible;followers:not_visible,uncertain,,,,,,,290d2c2b77e24ebf160da4ec828b41b8.jpg,截图转录；显示名=まじっくあわー；用户确认链接按序对应；非完整网页核验。见 tiktok_observations.csv。
+V12,pending,TikTok,https://vt.tiktok.com/ZSpMeJ2t1/,,,,,tutorial,,,,90000,985,25000,36000,mixed,likes=9万;comments=985;saves=3.6万;shares=2.5万,views:not_visible;followers:not_visible,uncertain,,,,,,,ad9c2eea795330009a727677b4c335db.jpg,截图转录；显示名=Justin Neto；用户确认链接按序对应；非完整网页核验。见 tiktok_observations.csv。
+V13,pending,TikTok,https://vt.tiktok.com/ZSpMJKe9d/,,,,,dance,2024-11-28,,,14000,283,337,1364,mixed,likes=1.4万;comments=283;saves=1364;shares=337,views:not_visible;followers:not_visible,uncertain,,,,,,,7cb5bf517b17d6da56787ff479c32b44.jpg,截图转录；显示名=Jayden Rodrigues；用户确认链接按序对应；非完整网页核验。见 tiktok_observations.csv。
+V14,pending,TikTok,https://vt.tiktok.com/ZSpMemyvx/,,,,,dance,2024-10-24,,,8745,123,170,709,mixed,likes=8745;comments=123;saves=709;shares=170,views:not_visible;followers:not_visible,uncertain,,,,,,,83e4e0aba69574269f8dbba92b782b34.jpg,截图转录；显示名=Miyu；用户确认链接按序对应；非完整网页核验。见 tiktok_observations.csv。
+V15,pending,TikTok,https://vt.tiktok.com/ZSpMehFKT/,,,,,dance,2024-10-20,,,61000,89,1188,2771,mixed,likes=6.1万;comments=89;saves=2771;shares=1188,views:not_visible;followers:not_visible,uncertain,,,,,,,55a4620768d7dcac2b867ce0d9d3e7ad.jpg,截图转录；显示名=milana slaay；用户确认链接按序对应；非完整网页核验。见 tiktok_observations.csv。
+V16,pending,TikTok,https://vt.tiktok.com/ZSpMehY7d/,,,,,dance,2024-11-08,,,29000,668,3573,6234,mixed,likes=2.9万;comments=668;saves=6234;shares=3573,views:not_visible;followers:not_visible,uncertain,,,,,,,102dd649e3bbc083563c20dbf13158ba.jpg,截图转录；显示名=Beg. Dance Tutorials w/ C…；用户确认链接按序对应；非完整网页核验。见 tiktok_observations.csv。
+V17,pending,TikTok,https://vt.tiktok.com/ZSpMefGAW/,,,,,dance,2024-10-25,,,20000,361,1089,2905,mixed,likes=2万;comments=361;saves=2905;shares=1089,views:not_visible;followers:not_visible,uncertain,,,,,,,a8b70344d5b51609448073c4335f78ff.jpg,截图转录；显示名=Justin；用户确认链接按序对应；非完整网页核验。见 tiktok_observations.csv。
+V18,pending,TikTok,https://vt.tiktok.com/ZSpMekA6y/,,,,,tutorial,2024-11-04,,,107000,962,7406,30000,mixed,likes=10.7万;comments=962;saves=3万;shares=7406,views:not_visible;followers:not_visible,uncertain,,,,,,,3138b29cd2181695b9ebbfdff32ef136.jpg,截图转录；显示名=sarah ichaa；用户确认链接按序对应；非完整网页核验。见 tiktok_observations.csv。
+V19,pending,TikTok,https://vt.tiktok.com/ZSpMeCSU8/,,,,,dance,2024-11-27,,,26000,689,572,2357,mixed,likes=2.6万;comments=689;saves=2357;shares=572,views:not_visible;followers:not_visible,uncertain,,,,,,,2c1376cfd3d8aff5bf3a5365d71f4c49.jpg,截图转录；显示名=Jezzi；用户确认链接按序对应；非完整网页核验。见 tiktok_observations.csv。
+V20,pending,TikTok,https://vt.tiktok.com/ZSpMekcKk/,,,,,tutorial,2024-12-04,,,260000,1701,21000,61000,mixed,likes=26万;comments=1701;saves=6.1万;shares=2.1万,views:not_visible;followers:not_visible,uncertain,,,,,,,d267bda2ebcf26e0184e476c722e25e7.jpg,截图转录；显示名=just.elias；用户确认链接按序对应；非完整网页核验。见 tiktok_observations.csv。

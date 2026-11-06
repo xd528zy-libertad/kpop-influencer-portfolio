@@ -1,64 +1,45 @@
-# From Short-form Discovery to Playlist Intent
-## K-pop 达人传播观察 × 主题歌单推广方案
+# From Dance Challenge to Playlist Discovery
+## 《APT.》TikTok 内容观察与歌单推广策略
 
-**Case: ROSÉ & Bruno Mars — APT. | Independent marketing portfolio | 中文 / English**
+**Independent marketing portfolio · Screenshot-based exploratory study**
 
-> 状态：研究框架与分析工具已完成，20 条公开视频尚待人工采集。当前没有传播效果结论，也没有执行投放。
-> 本项目不代表艺人、唱片公司或平台；策略与目标均为独立提案。
+已完成20条用户提供截图的互动数据转录、内容初步分类与描述性分析。链接与截图按序对应已由用户确认；完整视频、账号主页和短链接尚未独立核验。推广提案未执行。
 
-### 商业问题
-如何用短视频内容和达人选择，让对《APT.》有兴趣的听众愿意进一步探索一份主题歌单？
-本项目用小样本公开观察形成创意测试假设，再设计可追踪的歌单推广试验。
+### 项目回答什么问题？
+围绕 ROSÉ & Bruno Mars《APT.》，哪些可观察的内容特点值得转化成下一轮歌单推广测试？本案例展示研究整理、指标判断、内容策略与测量设计，而不是宣称实际投放增长。
+
+### 关键发现
+- 20张TikTok截图有可读的点赞、评论、收藏与分享；没有可读的播放量或账号粉丝量，因此不计算播放互动率、触达率或ROI。
+- 3条明确教学提示内容的收藏/点赞中位比值约28.0%；其余16条创作者候选的舞蹈相关内容约9.3%。另1条媒体背景记录不参加分组。
+- 该差异只用于提出“教程方便回看”的创意假设。样本量、发布时间、粉丝基础与选择偏差未被控制，不能当作因果关系或收听转化证据。
+
+![数据覆盖](reports/figures/screenshot_counts.svg)
+
+### 从证据到策略
+| 阅读入口 | 内容 | 展示能力 |
+|---|---|---|
+| [案例报告](reports/case_study.md) | 发现、替代解释及行动 | Insight / storytelling |
+| [自动分析与图表](reports/tiktok_findings.md) | 有效样本与指标口径 | Marketing analytics |
+| [20条原始转录 CSV](data/raw/tiktok_observations.csv) | 原始显示、数值、链接、截图标识 | Evidence management |
+| [推广提案](strategy/tiktok_campaign.md) | 三个创意、达人筛选与KPI | Influencer strategy |
+| [研究方法](docs/tiktok_methodology.md) | 便利取样、修订和限制 | Research design |
+| [GitHub发布指南](docs/github_publish.md) | 项目更新方法 | Communication |
 
 ### English brief
-An independent portfolio exploring how creator-led short-form content could support playlist discovery around ROSÉ & Bruno Mars' “APT.” The project includes a 20-video observation protocol, auditable data templates, reproducible descriptive analysis, and a proposed creator campaign. Data collection and campaign execution are pending; no performance uplift or causal impact is claimed.
+An exploratory screenshot-based study of 20 TikTok posts associated with “APT.” Publicly displayed interaction counts were transcribed and used to develop playlist-promotion hypotheses. Three tutorial-labelled posts showed a higher median saves-to-likes ratio than 16 other creator candidates. One apparent media-account post was retained as context only. Views, follower counts and conversion data were unavailable; no causal effect, campaign uplift or ROI is claimed. Link-to-image mapping was confirmed by the contributor, while independent video and profile verification remains pending.
 
-### 30 秒浏览
-| 想了解什么 | 入口 | 展示的能力 |
-|---|---|---|
-| 为什么选歌、如何取样 | [研究方法](docs/methodology.md) | Research design / audience insight |
-| 数据如何记录与校验 | [CSV 模板](data/raw/videos.csv) · [Excel 模板](data/templates/collection_template.xlsx) · [字段字典](docs/data_dictionary.md) | Data literacy / measurement |
-| 现在能得出什么 | [自动报告](reports/analysis_summary.md) · [案例报告模板](reports/case_study.md) | Evidence-based storytelling |
-| 如何落成推广方案 | [推广提案](strategy/campaign_plan.md) | Influencer strategy / creative briefs / KPIs |
-| 如何上传与展示 | [GitHub 发布指南](docs/github_publish.md) · [求职表达](docs/portfolio_story.md) | Clear communication |
-
-![Collection progress](reports/figures/collection_progress.svg)
-
-### 现在开始
-1. 阅读研究方法，固定搜索条件；先完成 3 条真实记录，检查字段是否好填。
-2. 选一个录入入口：直接编辑 `data/raw/videos.csv`；或填写 Excel 的 `Videos` 工作表，再把该工作表单独另存为 **CSV UTF-8**，替换前述 CSV。二者不会自动同步，CSV 是分析的唯一输入。
-3. 视频 URL、采集时间和人工确认齐备后，才将该行 `status` 改为 `verified`。看不到的数值留空，原因写入 `missing_metrics_reason`。
-4. 在项目文件夹打开终端，运行：
-
+### 复现分析
+Python 3.10+，无需第三方库。在项目文件夹运行：
 ```sh
-python scripts/analyze.py
+python scripts/analyze_screenshots.py
 python -m unittest discover -s tests -v
 ```
+输入：`data/raw/tiktok_observations.csv`；输出：`reports/tiktok_findings.md`、`data/processed/screenshot_*.csv` 和 `reports/figures/screenshot_*.svg`。
 
-Windows 如使用 Python Launcher，可把 `python` 换成 `py`。需要 Python 3.10 或更新版本，无需安装第三方分析库。
+`videos.csv` 已填入截图可见字段，但保留 pending，避免冒充完整验证记录；原 `scripts/analyze.py` 用于未来完成视频与账号核验后的分析。它的空样本报告不代表截图没有数据。
+原 `collection_template.xlsx` 是空白采集模板；本次数据以链接的 CSV 为准，用 Excel 可以打开，不需要用户重复填写。
 
-5. 查看自动报告、质量问题清单及图表；填写案例报告的证据与结论，然后按指南发布。
-
-### 项目结构
-```text
-data/
-  raw/                 # 20 行模板与搜索日志；真实观察的唯一输入
-  templates/           # Excel 录入模板
-  processed/           # 脚本生成的逐条指标、分组统计与质量问题
-  private_evidence/    # 不公开的核验材料
-docs/                  # 方法、字段、来源、发布与求职表达
-scripts/analyze.py     # 校验、描述统计与 SVG 图表；无外部依赖
-tests/                 # 用明确标记的合成输入检验分析逻辑
-reports/               # 自动报告、图表、待填写的商业结论
-strategy/              # 推广提案、歌单、达人候选表与 KPI 追踪表
-```
-
-### 分析边界
-默认只采集 YouTube Shorts 的 20 个不同创作者；分组仅在同一平台内进行。CSV 支持其他平台，但不把不同平台的播放数或比率混成一个排名。公开数据无法证明转化、增量或合作回报。20 条便利样本不代表整个市场。
-
-`verified` 表示研究者已经人工核验，脚本只检查格式与一致性，不会联网验证视频内容。
-尚未采集时，图表明确显示无数据；测试中的合成数值不写入真实数据文件。
-
-### 数据与来源
-歌曲目录和官方 MV 入口已核对；来源检索日为 **2026-11-07（Australia/Sydney）**。这不是短视频互动数据的采集日。
-详见 [来源登记](docs/sources.md) 与 [使用说明](NOTICE.md)。
+### 状态与限制
+截图日期由用户确认为2026-11-07；用户报告批次时间01:37，截图状态栏约01:22–01:29；时区未知。数据不是实时统计。
+初始YouTube研究计划已调整为用户提供的TikTok便利样本，没有实际执行预设搜索配额。完整修订说明见研究方法。旧计划与模板作为设计记录保留。
+本项目与艺人、唱片公司及平台无官方关联。AI协助转录、代码与初稿；用户提供素材及顺序确认。未发布截图副本，未进行达人联系或真实投放。
